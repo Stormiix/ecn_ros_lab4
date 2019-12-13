@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="loulou" type="loulou_node" name="loulou_node" output="screen">
+        <remap from="/image_in" to="/cameras/left_hand_camera/image" />
+        <param name="text" value="Oi :)"/>
+    </node>
+</launch>
